@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import cameraIcon from "@/assets/camera-icon.webp";
-import featureDemoVideo from "@/assets/feature-demo-video.mp4";
+import phoneDemoVideo from "@/assets/phone-demo-video.mp4";
 
 const VideoFeatureSection = () => {
   return (
@@ -11,14 +11,12 @@ const VideoFeatureSection = () => {
           <div className="flex justify-center lg:justify-start">
             <div className="relative max-w-md">
               <video
-                src={featureDemoVideo}
+                src={phoneDemoVideo}
                 autoPlay
                 loop
                 muted
                 playsInline
                 className="w-full h-auto rounded-3xl shadow-2xl"
-                onError={(e) => console.error("Video error:", e)}
-                onLoadStart={() => console.log("Video loading started")}
               />
             </div>
           </div>

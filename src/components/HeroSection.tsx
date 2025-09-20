@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import iphoneMockup from "@/assets/iphone-mockup.png";
-import featureDemoVideo from "@/assets/feature-demo-video.mp4";
+import heroDemoVideo from "@/assets/hero-demo-video.mp4";
 
 const HeroSection = () => {
   const foodEmojis = [
@@ -66,15 +66,13 @@ const HeroSection = () => {
               <div className="relative bg-black rounded-[2.5rem] p-2 shadow-2xl">
                 <div className="bg-black rounded-[2.2rem] overflow-hidden">
                   <video
-                    src={featureDemoVideo}
+                    src={heroDemoVideo}
                     autoPlay
                     loop
                     muted
                     playsInline
                     className="w-full h-auto"
                     style={{ aspectRatio: "9/19.5" }}
-                    onError={(e) => console.error("Video error:", e)}
-                    onLoadStart={() => console.log("Video loading started")}
                   />
                 </div>
               </div>
