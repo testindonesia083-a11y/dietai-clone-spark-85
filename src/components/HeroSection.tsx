@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import iphoneMockup from "@/assets/iphone-mockup.png";
+import heroDemoVideo from "@/assets/hero-demo-video.mp4";
 
 const HeroSection = () => {
   const foodEmojis = [
@@ -65,7 +66,7 @@ const HeroSection = () => {
               <div className="relative bg-black rounded-[2.5rem] p-2 shadow-2xl">
                 <div className="bg-black rounded-[2.2rem] overflow-hidden">
                   <video
-                    src="src/assets/hero-demo-video.mp4"
+                    src={heroDemoVideo}
                     autoPlay
                     loop
                     muted
