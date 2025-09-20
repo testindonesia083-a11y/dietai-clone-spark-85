@@ -3,6 +3,8 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import testimonial1 from "@/assets/testimonial-1.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
+import testimonial6 from "@/assets/testimonial-6.jpg";
+import testimonial7 from "@/assets/testimonial-7.jpg";
 import testimonialVideo from "@/assets/testimonial-video.mp4";
 
 const TestimonialsSection = () => {
@@ -27,6 +29,18 @@ const TestimonialsSection = () => {
     },
     {
       id: 4,
+      type: "image",
+      image: testimonial6,
+      alt: "Depoimento positivo do usuário sobre o app"
+    },
+    {
+      id: 5,
+      type: "image",
+      image: testimonial7,
+      alt: "Comentários dos usuários elogiando o aplicativo"
+    },
+    {
+      id: 6,
       type: "video",
       video: testimonialVideo,
       alt: "Depoimento em vídeo de usuário"
