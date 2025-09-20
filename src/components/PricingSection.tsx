@@ -16,7 +16,7 @@ const PricingSection = () => {
         "Banco de +50mil alimentos",
       ],
       popular: false,
-      link: "https://www.ggcheckout.com/checkout/v2/lTcmGb0ShT5XtjjyR0hD",
+      link: "https://www.ggcheckout.com/checkout/v2/D6UKDIIs8RxuATKAOTOr",
     },
     {
       name: "Plano Premium",
