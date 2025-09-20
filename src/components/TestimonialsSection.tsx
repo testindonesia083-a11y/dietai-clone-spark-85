@@ -1,10 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import testimonial1 from "@/assets/testimonial-1.jpg";
-import testimonial2 from "@/assets/testimonial-2.webp";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
-import testimonial5 from "@/assets/testimonial-5.webp";
 import testimonialVideo from "@/assets/testimonial-video.mp4";
 
 const TestimonialsSection = () => {
@@ -18,29 +16,17 @@ const TestimonialsSection = () => {
     {
       id: 2,
       type: "image",
-      image: testimonial2,
-      alt: "Feedback do usuário sobre o app"
-    },
-    {
-      id: 3,
-      type: "image",
       image: testimonial3,
       alt: "Café da manhã com contagem de calorias"
     },
     {
-      id: 4,
+      id: 3,
       type: "image",
       image: testimonial4,
       alt: "Prato com contagem nutricional"
     },
     {
-      id: 5,
-      type: "image",
-      image: testimonial5,
-      alt: "Comentários positivos dos usuários"
-    },
-    {
-      id: 6,
+      id: 4,
       type: "video",
       video: testimonialVideo,
       alt: "Depoimento em vídeo de usuário"
