@@ -11,9 +11,8 @@ const PricingSection = () => {
       period: "",
       description: "Perfeito para começar sua jornada",
       features: [
-        "Análise nutricional ilimitada",
+        "Análise nutricional limitada",
         "Relatórios semanais",
-        "Suporte prioritário",
         "Banco de +50mil alimentos",
       ],
       popular: false,
@@ -23,7 +22,7 @@ const PricingSection = () => {
       name: "Plano Premium",
       price: "R$ 19,90",
       period: "",
-      originalPrice: "R$ 29,90",
+      originalPrice: "R$ 69,90",
       description: "Melhor custo-benefício",
       features: [
         "Tudo do plano básico",

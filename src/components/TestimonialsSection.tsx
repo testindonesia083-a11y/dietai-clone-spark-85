@@ -5,6 +5,7 @@ import testimonial2 from "@/assets/testimonial-2.webp";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
 import testimonial5 from "@/assets/testimonial-5.webp";
+import testimonialVideo from "@/assets/testimonial-video.mp4";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -37,6 +38,12 @@ const TestimonialsSection = () => {
       type: "image",
       image: testimonial5,
       alt: "Comentários positivos dos usuários"
+    },
+    {
+      id: 6,
+      type: "video",
+      video: testimonialVideo,
+      alt: "Depoimento em vídeo de usuário"
     }
   ];
 
@@ -62,11 +69,20 @@ const TestimonialsSection = () => {
                 <CarouselItem key={testimonial.id} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                   <Card className="p-4 hover:shadow-lg transition-all duration-300 border-border/50 bg-card backdrop-blur-sm overflow-hidden h-full">
                     <div className="w-full h-auto">
-                      <img 
-                        src={testimonial.image} 
-                        alt={testimonial.alt}
-                        className="w-full h-auto object-contain rounded-lg"
-                      />
+                      {testimonial.type === "video" ? (
+                        <video 
+                          src={testimonial.video} 
+                          controls
+                          className="w-full h-auto object-contain rounded-lg"
+                          preload="metadata"
+                        />
+                      ) : (
+                        <img 
+                          src={testimonial.image} 
+                          alt={testimonial.alt}
+                          className="w-full h-auto object-contain rounded-lg"
+                        />
+                      )}
                     </div>
                   </Card>
                 </CarouselItem>
