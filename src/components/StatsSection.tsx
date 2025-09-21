@@ -40,8 +40,30 @@ const StatsSection = () => {
       }, stepDuration);
       return () => clearInterval(timer);
     }, [targetValue]);
-    return;
+    return (
+      <span className="text-4xl font-bold text-primary">
+        {count}
+        <span className="text-xl ml-1">{unit}</span>
+      </span>
+    );
   };
-  return;
+
+  return (
+    <section className="py-16 bg-secondary/10">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          {stats.map((stat, index) => (
+            <Card key={index} className="p-8 bg-card border-primary/20">
+              <div className="flex flex-col items-center space-y-4">
+                <img src={trophyIcon} alt="Trophy" className="w-12 h-12" />
+                <CountingNumber targetValue={stat.targetValue} unit={stat.unit} />
+                <p className="text-muted-foreground">{stat.label}</p>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 export default StatsSection;
