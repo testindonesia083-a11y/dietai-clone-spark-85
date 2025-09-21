@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import testimonialAline from "@/assets/testimonial-aline.jpg";
+import testimonial31kg from "@/assets/testimonial-31kg.jpg";
 import testimonial1 from "@/assets/testimonial-1.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
@@ -12,35 +14,47 @@ const TestimonialsSection = () => {
     {
       id: 1,
       type: "image",
+      image: testimonialAline,
+      alt: "Transformação da Aline Azevedo - 130kg para 85kg"
+    },
+    {
+      id: 2,
+      type: "image",
+      image: testimonial31kg,
+      alt: "Perda de 31kg com o LifeApp - Só agradecer ao LifeApp"
+    },
+    {
+      id: 3,
+      type: "image",
       image: testimonial1,
       alt: "Depoimento sobre perda de peso - 3,8kg perdidos"
     },
     {
-      id: 2,
+      id: 4,
       type: "image",
       image: testimonial3,
       alt: "Café da manhã com contagem de calorias"
     },
     {
-      id: 3,
+      id: 5,
       type: "image",
       image: testimonial4,
       alt: "Prato com contagem nutricional"
     },
     {
-      id: 4,
+      id: 6,
       type: "image",
       image: testimonial6,
       alt: "Depoimento positivo do usuário sobre o app"
     },
     {
-      id: 5,
+      id: 7,
       type: "image",
       image: testimonial7,
       alt: "Comentários dos usuários elogiando o aplicativo"
     },
     {
-      id: 6,
+      id: 8,
       type: "video",
       video: testimonialVideo,
       alt: "Depoimento em vídeo de usuário"

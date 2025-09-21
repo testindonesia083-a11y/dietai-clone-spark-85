@@ -40,12 +40,12 @@ const WhyChooseSection = () => {
     {
       icon: "⏰",
       title: "Lembretes personalizáveis",
-      description: "Crie seu próprio lembrete e receba notificações diretamente via Whatsapp. Por exemplo: lembretes para tomar água, medicamentos, refeições e etc",
+      description: "Crie seu próprio lembrete e receba notificações diretamente via App. Por exemplo: lembretes para tomar água, medicamentos, refeições e etc",
     },
     {
       icon: "🔥",
-      title: "Jejum",
-      description: "Acompanhe o tempo do seu jejum diretamente no Whatsapp.",
+      title: "Emagreça comendo à vontade",
+      description: "Acompanhe o seu progresso pelo App.",
     },
     {
       icon: "🧍",

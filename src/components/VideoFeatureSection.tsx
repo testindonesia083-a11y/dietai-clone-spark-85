@@ -25,11 +25,7 @@ const VideoFeatureSection = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="flex justify-center lg:justify-start mb-6">
               <div className="relative">
-                <img 
-                  src={cameraIcon} 
-                  alt="Camera" 
-                  className="w-16 h-16"
-                />
+                <div className="text-6xl">📱</div>
                 <div className="absolute -top-2 -right-2 text-yellow-400 text-2xl">✨</div>
               </div>
             </div>
