@@ -3,10 +3,6 @@ import { useEffect, useState } from "react";
 import trophyIcon from "@/assets/trophy.webp";
 const StatsSection = () => {
   const stats = [{
-    targetValue: 500,
-    unit: "mil",
-    label: "Alimentos já registrados"
-  }, {
     targetValue: 2000,
     unit: "kg",
     label: "Perdidos"
