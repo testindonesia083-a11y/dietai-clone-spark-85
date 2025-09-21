@@ -45,6 +45,31 @@ const StatsSection = () => {
         <span className="text-2xl lg:text-3xl ml-1">{unit}</span>
       </div>;
   };
-  return;
+  return (
+    <section className="py-20 bg-gradient-to-b from-background to-secondary/20">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <div className="flex justify-center mb-6">
+            <img src={trophyIcon} alt="Trophy" className="w-16 h-16" />
+          </div>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+            Resultados <span className="gradient-text">comprovados</span>
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Milhares de pessoas já transformaram suas vidas com nosso app
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          {stats.map((stat, index) => (
+            <Card key={index} className="text-center p-8 border-border hover:border-primary/50 transition-all duration-300">
+              <CountingNumber targetValue={stat.targetValue} unit={stat.unit} />
+              <p className="text-lg text-muted-foreground">{stat.label}</p>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 export default StatsSection;

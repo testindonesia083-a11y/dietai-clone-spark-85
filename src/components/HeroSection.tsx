@@ -38,12 +38,12 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Emagreça mais rápido em casa! LifeApp com{" "}
-                <span className="gradient-text">Inteligência Artificial Nutricionista e Personal Trainer</span>{" "}
-                exclusivo!
+                O Método Secreto que não tem contam! É não querem que você saiba!
+                O Aplicativo secreto chamado LifeApp que não é divulgado em lugar nenhum, somente quem é da indústria de Hollywood e está entre o mundo dos famosos sabe!
+                Emagrecer em casa sem dificuldade e sem se privar de nada!
               </h1>
               <p className="text-xl lg:text-2xl text-muted-foreground">
-                Feita exclusivamente para te ajudar nos treinos, alimentação e perda de peso!
+                Não sabemos até quando esse app vai durar no ar! Então peço que aproveite enquanto á tempo!
               </p>
             </div>
 

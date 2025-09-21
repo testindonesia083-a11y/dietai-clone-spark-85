@@ -96,7 +96,7 @@ const CaloriesSection = () => {
               </h2>
               
               <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
-                Com o registro do seu exercício e taxa metabólica basal, você consegue saber diariamente se está gastando mais calorias do que ingerindo
+                Com o Registro Calórico do seu dia, o App te dará o passo a passo de como melhorar as metas e as calórias no proximo dia!
               </p>
             </div>
 

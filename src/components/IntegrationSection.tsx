@@ -35,7 +35,7 @@ const IntegrationSection = () => {
 
           {/* Description */}
           <p className="text-muted-foreground leading-relaxed">
-            Registre facilmente exercícios através da integração com o Strava que permite você integrar com seu relógio, seja Apple, Fitbit etc.
+            App com integração no seu relógio SmartWatch, registrando todos os acontecimentos do dia e te dando todas as dicas de melhorias na saude e o passo a passo para ter mais perda de peso! Suporte para todos os SmartWatchs incluindo Apple, Samsung, Mi fit entre outros...
           </p>
 
           {/* Brand Logos */}

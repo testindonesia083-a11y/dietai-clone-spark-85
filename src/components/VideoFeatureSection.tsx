@@ -36,11 +36,11 @@ const VideoFeatureSection = () => {
 
             <div className="space-y-6">
               <h2 className="text-3xl lg:text-5xl font-bold text-white leading-tight">
-                Muitos treinos e Receitas saudáveis para você
+                Treinos secretos para fazer a gordura desaparecer do seu corpo e Receitas de alimentos gostosos para você
               </h2>
               
               <p className="text-lg lg:text-xl text-white/90 leading-relaxed">
-                Envie as suas informações para a nossa IA e veja os Planos de treino e de Alimentação com base no seu fisico!
+                <strong>Fora que nesse Aplicativo das celebridades tem uma Inteligência artificial única que te da todo o passo a passo para o corpo e a meta que deseja!</strong>
               </p>
             </div>
 
