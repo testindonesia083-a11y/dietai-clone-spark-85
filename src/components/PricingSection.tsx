@@ -22,11 +22,11 @@ const PricingSection = () => {
       name: "Plano Premium",
       price: "R$ 19,90",
       period: "",
-      originalPrice: "R$ 69,90",
+      originalPrice: "R$ 97,00",
       description: "Melhor custo-benefício",
       features: [
         "Tudo do plano básico",
-        "Desconto de 33%",
+        "Desconto de 80%",
         "Relatórios avançados",
         "Metas personalizadas",
         "Suporte VIP 24/7",
