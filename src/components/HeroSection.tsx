@@ -51,11 +51,7 @@ const HeroSection = () => {
           animationDelay: "0.2s"
         }}>
             <div className="relative max-w-sm">
-              <div className="relative bg-black rounded-[2.5rem] p-2 shadow-2xl">
-                <div className="bg-black rounded-[2.2rem] overflow-hidden">
-                  
-                </div>
-              </div>
+              
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 blur-xl opacity-75 -z-10"></div>
             </div>
           </div>
