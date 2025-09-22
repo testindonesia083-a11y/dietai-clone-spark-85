@@ -11,38 +11,38 @@ const PricingSection = () => {
       period: "",
       description: "Perfeito para começar sua jornada",
       features: [
-        "Análise nutricional limitada",
-        "1 Relatório Semanal",
-        "40 Técnicas de Perda de Peso em casa",
-        "Sem Suporte Personalizado",
-        "Sem Inteligência Artificial",
-        "Sem Acesso Vitalício",
-        "Sem Atualização Semanal do Aplicativo",
+        "**Análise nutricional limitada**",
+        "**1 Relatório Semanal**",
+        "**40 Técnicas de Perda de Peso em casa**",
+        "**Sem Suporte Personalizado**",
+        "**Sem Inteligência Artificial**",
+        "**Sem Acesso Vitalício**",
+        "**Sem Atualização Semanal do Aplicativo**",
       ],
       popular: false,
       link: "https://www.ggcheckout.com/checkout/v2/D6UKDIIs8RxuATKAOTOr",
     },
     {
       name: "Plano Premium",
-      price: "R$ 19,90",
+      price: "R$ 27,90",
       period: "",
       originalPrice: "R$ 97,00",
       description: "Melhor custo-benefício",
       features: [
-        "Tudo do plano básico",
-        "Desconto de 80%",
-        "+10 Relatórios Semanais",
-        "Metas personalizadas",
-        "Suporte Personalizado 24/7",
-        "Backup na nuvem",
-        "+100 Técnicas de Perda de Peso em Casa",
-        "Pacote com +100 Receitas Gostosas Fáceis",
-        "1 Inteligência Artificial Saudável",
-        "Acesso vitalício para sempre",
-        "Atualizações Semanal do Aplicativo",
+        "**Tudo do plano básico**",
+        "**Desconto de 71%**",
+        "**+10 Relatórios Semanais**",
+        "**Metas personalizadas**",
+        "**Suporte Personalizado 24/7**",
+        "**Backup na nuvem**",
+        "**+100 Técnicas de Perda de Peso em Casa**",
+        "**Pacote com +100 Receitas Gostosas Fáceis**",
+        "**1 Inteligência Artificial Saudável**",
+        "**Acesso vitalício para sempre**",
+        "**Atualizações Semanal do Aplicativo**",
       ],
       popular: true,
-      link: "https://www.ggcheckout.com/checkout/v2/qIkJhw473rm4lMFcO9Em",
+      link: "https://pay.cakto.com.br/bavkzf5_579012",
     },
   ];
 
@@ -92,7 +92,11 @@ const PricingSection = () => {
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center gap-3">
                     <Check size={18} className="text-primary flex-shrink-0" />
-                    <span>{feature}</span>
+                    <span 
+                      dangerouslySetInnerHTML={{
+                        __html: feature.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                      }}
+                    />
                   </li>
                 ))}
               </ul>
