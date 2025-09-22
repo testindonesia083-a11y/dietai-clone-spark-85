@@ -20,7 +20,7 @@ const PricingSection = () => {
         "**Sem Atualização Semanal do Aplicativo**",
       ],
       popular: false,
-      link: "https://www.ggcheckout.com/checkout/v2/D6UKDIIs8RxuATKAOTOr",
+      link: "https://pay.cakto.com.br/33cy6hc_579203",
     },
     {
       name: "Plano Premium",
