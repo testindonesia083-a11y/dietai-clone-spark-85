@@ -69,20 +69,18 @@ const HeroSection = () => {
 
           </div>
 
-          {/* Right Content - Phone Mockup with Video */}
+          {/* Right Content - Phone Mockup with vslTub Player */}
           <div className="flex justify-center lg:justify-end animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <div className="relative max-w-sm">
               <div className="relative bg-black rounded-[2.5rem] p-2 shadow-2xl">
                 <div className="bg-black rounded-[2.2rem] overflow-hidden">
-                  <video
-                    src={heroDemoVideo}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
+                  <div 
+                    id="vslturb-player-hero" 
+                    data-config='{"videoId":"JrWQ1lPU3i8","behavior":{"allowPlayPause":true,"autoplay":false,"customThumbnail":"","showProgressBar":true,"progressBarSpeed":1,"showVolumeControl":true,"allowFullscreen":false,"showTimeline":false,"showPlayButton":true,"showSmallPlayButton":true,"showBigPlayButton":true,"silentAutoplay":true},"texts":{"endTitle":"","endMessage":"Assistir novamente","initialText":"Clique para ouvir","externalLink":"","initialTitle":"Seu vídeo já começou!","pauseMessage":"Você já começou a assistir esse vídeo","restartLabel":"Assistir do início?","continueLabel":"Continuar assistindo?","externalLinkText":"Visitar site"},"colors":{"textColor":"#ffffff","endOverlay":"#b72c33","progressBar":"#db3434","pauseOverlay":"#b72c33","controlsColor":"#ffffff","initialButton":"#db3434c4","endButtonColor":"#ffffff","pauseTextColor":"#ffffff","buttonBorderColor":"#ffffff","endButtonTextColor":"#000000"},"fonts":{"textSize":"14","titleSize":"18","fontFamily":"Roboto, sans-serif","initialIconType":"muted"},"features":{"showEndButton":true,"showEndScreen":false,"showPauseScreen":true,"buttonBorderWidth":0,"pauseBackgroundImage":"","endScreenBackgroundImage":""},"idvideo":"26ImM581f"}' 
+                    data-idvideo="26ImM581f"
                     className="w-full h-auto"
                     style={{ aspectRatio: "9/19.5" }}
-                  />
+                  ></div>
                 </div>
               </div>
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 blur-xl opacity-75 -z-10"></div>
