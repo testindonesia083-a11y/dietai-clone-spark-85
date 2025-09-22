@@ -58,6 +58,15 @@ const HeroSection = () => {
               </Button>
             </div>
 
+            {/* vslTub Player */}
+            <div className="mt-8">
+              <div 
+                id="vslturb-player" 
+                data-config='{"videoId":"JrWQ1lPU3i8","behavior":{"allowPlayPause":true,"autoplay":false,"customThumbnail":"","showProgressBar":true,"progressBarSpeed":1,"showVolumeControl":true,"allowFullscreen":false,"showTimeline":false,"showPlayButton":true,"showSmallPlayButton":true,"showBigPlayButton":true,"silentAutoplay":true},"texts":{"endTitle":"","endMessage":"Assistir novamente","initialText":"Clique para ouvir","externalLink":"","initialTitle":"Seu vídeo já começou!","pauseMessage":"Você já começou a assistir esse vídeo","restartLabel":"Assistir do início?","continueLabel":"Continuar assistindo?","externalLinkText":"Visitar site"},"colors":{"textColor":"#ffffff","endOverlay":"#b72c33","progressBar":"#db3434","pauseOverlay":"#b72c33","controlsColor":"#ffffff","initialButton":"#db3434c4","endButtonColor":"#ffffff","pauseTextColor":"#ffffff","buttonBorderColor":"#ffffff","endButtonTextColor":"#000000"},"fonts":{"textSize":"14","titleSize":"18","fontFamily":"Roboto, sans-serif","initialIconType":"muted"},"features":{"showEndButton":true,"showEndScreen":false,"showPauseScreen":true,"buttonBorderWidth":0,"pauseBackgroundImage":"","endScreenBackgroundImage":""},"idvideo":"26ImM581f"}' 
+                data-idvideo="26ImM581f"
+              ></div>
+            </div>
+
           </div>
 
           {/* Right Content - Phone Mockup with Video */}
