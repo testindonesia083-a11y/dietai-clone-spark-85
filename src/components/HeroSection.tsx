@@ -23,7 +23,9 @@ const HeroSection = () => {
             <div className="space-y-4">
               <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
                 O Método Secreto que não tem contam e não querem que você saiba!
+                <br />
                 O Aplicativo Secreto chamado LifeApp que não é divulgado em lugar nenhum, somente quem é da industria de Hollywood e está entre o mundo dos famosos sabe!
+                <br />
                 Emagrecer em casa sem muita dificuldade e sem se privar de nada!
               </h1>
               <p className="text-xl lg:text-2xl text-muted-foreground">
@@ -43,12 +45,12 @@ const HeroSection = () => {
               </div>
             </div>
 
-            {/* YouTube Video */}
-            <div className="mt-8 w-full max-w-2xl mx-auto lg:mx-0">
-              <div className="relative aspect-video rounded-lg overflow-hidden">
+            {/* YouTube Shorts Video */}
+            <div className="mt-8 w-full max-w-sm mx-auto lg:mx-0">
+              <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
                 <iframe 
-                  src="https://www.youtube.com/embed/xjD_a8am_Oc" 
-                  title="YouTube video player" 
+                  src="https://www.youtube.com/embed/xjD_a8am_Oc?vq=hd1080" 
+                  title="YouTube shorts video player" 
                   frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                   allowFullScreen
