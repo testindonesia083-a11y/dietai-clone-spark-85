@@ -21,7 +21,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
                 O Metodo Secreto que não tem contam e não querem que você saiba!
                 O Aplicativo Secreto chamado LifeApp que não é divulgado em lugar nenhum, somente quem é da industria de Hollywood e está entre o mundo dos famosos sabe!
                 Emagrecer em casa sem muita dificuldade e sem se privar de nada!
