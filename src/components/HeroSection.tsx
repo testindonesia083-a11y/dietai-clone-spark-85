@@ -22,7 +22,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
-                O Metodo Secreto que não tem contam e não querem que você saiba!
+                O Método Secreto que não tem contam e não querem que você saiba!
                 O Aplicativo Secreto chamado LifeApp que não é divulgado em lugar nenhum, somente quem é da industria de Hollywood e está entre o mundo dos famosos sabe!
                 Emagrecer em casa sem muita dificuldade e sem se privar de nada!
               </h1>
@@ -31,17 +31,39 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* Animated Text with Arrow */}
+            <div className="text-center lg:text-left">
+              <p className="text-lg lg:text-xl font-bold text-primary animate-pulse mb-2">
+                ASSISTA O VÍDEO COMPLETO ABAIXO E DESCUBRA COMO!
+              </p>
+              <div className="flex justify-center lg:justify-start">
+                <svg className="w-8 h-8 text-primary animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </div>
+            </div>
+
+            {/* YouTube Video */}
+            <div className="mt-8 w-full max-w-2xl mx-auto lg:mx-0">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <iframe 
+                  src="https://www.youtube.com/embed/xjD_a8am_Oc" 
+                  title="YouTube video player" 
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Buy Button After Video */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-8">
               <Button variant="hero" size="xl" className="animate-pulse-glow" onClick={() => document.getElementById('pricing')?.scrollIntoView({
               behavior: 'smooth'
             })}>
                 Comprar agora
               </Button>
-            </div>
-
-            {/* vslTub Video Player */}
-            <div className="mt-8 w-full max-w-2xl mx-auto lg:mx-0">
-              <div id="vslturb-player" data-config='{"videoId":"JrWQ1lPU3i8","behavior":{"allowPlayPause":true,"autoplay":false,"customThumbnail":"","showProgressBar":true,"progressBarSpeed":1,"showVolumeControl":true,"allowFullscreen":false,"showTimeline":false,"showPlayButton":true,"showSmallPlayButton":true,"showBigPlayButton":true,"silentAutoplay":true},"texts":{"endTitle":"","endMessage":"Assistir novamente","initialText":"Clique para ouvir","externalLink":"","initialTitle":"Seu vídeo já começou!","pauseMessage":"Você já começou a assistir esse vídeo","restartLabel":"Assistir do início?","continueLabel":"Continuar assistindo?","externalLinkText":"Visitar site"},"colors":{"textColor":"#ffffff","endOverlay":"#b72c33","progressBar":"#db3434","pauseOverlay":"#b72c33","controlsColor":"#ffffff","initialButton":"#db3434c4","endButtonColor":"#ffffff","pauseTextColor":"#ffffff","buttonBorderColor":"#ffffff","endButtonTextColor":"#000000"},"fonts":{"textSize":"14","titleSize":"18","fontFamily":"Roboto, sans-serif","initialIconType":"muted"},"features":{"showEndButton":true,"showEndScreen":false,"showPauseScreen":true,"buttonBorderWidth":0,"pauseBackgroundImage":"","endScreenBackgroundImage":""},"idvideo":"26ImM581f"}' data-idvideo="26ImM581f"></div>
             </div>
 
           </div>
