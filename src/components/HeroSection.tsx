@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import iphoneMockup from "@/assets/iphone-mockup.png";
 import heroDemoVideo from "@/assets/hero-demo-video.mp4";
+import PersonalizedPlanForm from "@/components/PersonalizedPlanForm";
 const HeroSection = () => {
   const foodEmojis = ["🍎", "🥕", "🥦", "🍌", "🍓", "🥑", "🍊", "🥬", "🍇", "🫐", "🥒", "🍅", "🥝", "🥭", "🍑", "🥔", "🌶️", "🫑", "🧄", "🧅", "🍋", "🥥", "🥜", "🥗", "🍉", "🍒", "🥐", "🥖", "🧀", "🥞", "🍳", "🥪", "🌽", "🍠", "🥨", "🫒", "🍍", "🫚", "🥦", "🫛", "🌮", "🥙", "🍱", "🥘", "🍲", "🥣", "🥟", "🍜"];
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-background to-secondary/30 overflow-hidden">
@@ -66,6 +67,11 @@ const HeroSection = () => {
             })}>
                 Comprar agora
               </Button>
+            </div>
+
+            {/* Personalized Plan Form */}
+            <div className="mt-12">
+              <PersonalizedPlanForm />
             </div>
 
           </div>
