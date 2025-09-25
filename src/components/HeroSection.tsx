@@ -29,7 +29,7 @@ const HeroSection = () => {
                 <br />
                 Emagrecer em casa sem muita dificuldade e sem se privar de nada!
               </h1>
-              <p className="text-xl lg:text-2xl text-muted-foreground">
+              <p className="text-xl lg:text-2xl text-muted-foreground font-bold">
                 Não sabemos até quando esse app vai durar no ar! Então peço que aproveite enquanto á tempo!
               </p>
             </div>
