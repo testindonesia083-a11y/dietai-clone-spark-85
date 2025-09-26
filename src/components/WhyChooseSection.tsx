@@ -4,14 +4,9 @@ import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 const WhyChooseSection = () => {
   const features = [
     {
-      icon: "🏃",
-      title: "Registro de exercícios",
-      description: "Registre seus exercícios para entender seu balanço calórico diário. Adicione atividades manualmente ou sincronize com seu relógio.",
-    },
-    {
       icon: "⚖️",
       title: "Registro de medidas",
-      description: "Agora é possível registrar e acompanhar seu peso, circunferência e dobras corporais de forma prática. Visualize sua evolução por meio de gráficos detalhados.",
+      description: "Agora é possível registrar e acompanhar seu peso, circunferência e dobras corporais de forma prática. Visualize sua evolução pelo App.",
     },
     {
       icon: "🎯",
@@ -24,19 +19,9 @@ const WhyChooseSection = () => {
       description: "Faça perguntas, tire dúvidas, gere sugestões de alimentos e cardápios através da interação com o assistente do LifeApp.",
     },
     {
-      icon: "📖",
-      title: "Cadastre receitas",
-      description: "Salve suas receitas através dos ingredientes e use de forma proporcional quando quiser.",
-    },
-    {
       icon: "📊",
       title: "Relatórios",
       description: "Acompanhe relatórios de evolução, consumo de macronutrientes, calorias, peso, água e muito mais.",
-    },
-    {
-      icon: "🍰",
-      title: "Receba avaliações",
-      description: "Obtenha uma avaliação e estimativa do índice glicêmico, carga glicêmica ou colesterol de cada alimento registrado. Auxiliamos você na escolha de opções mais saudáveis.",
     },
     {
       icon: "⏰",
