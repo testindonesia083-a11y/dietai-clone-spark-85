@@ -69,14 +69,14 @@ const PersonalizedPlanForm = () => {
 
   if (showResult) {
     return (
-      <Card className="max-w-2xl mx-auto bg-background shadow-lg">
-        <CardContent className="p-8 text-center">
-          <h3 className="text-xl font-bold text-green-500 mb-4">✅ Resultado do seu diagnóstico</h3>
-          <p className="text-lg text-foreground mb-6">
+      <Card className="w-full max-w-lg mx-auto bg-background shadow-lg">
+        <CardContent className="p-4 text-center">
+          <h3 className="text-lg font-bold text-green-500 mb-3">✅ Resultado do seu diagnóstico</h3>
+          <p className="text-sm text-foreground mb-4">
             📊 Olá, <b>{imcData.nome}</b>! Seu IMC é <b>{imcData.imc}</b> → <b>{imcData.status}</b>
           </p>
           
-          <div className="text-left space-y-4 mb-6 p-5 bg-muted/30 rounded-lg">
+          <div className="text-left space-y-2 mb-4 p-3 bg-muted/30 rounded-lg text-sm">
             <p className="text-foreground">
               🚀 Com base nas suas informações, criamos um plano inicial para você.
             </p>
@@ -90,7 +90,7 @@ const PersonalizedPlanForm = () => {
           
           <Button 
             variant="default" 
-            className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-lg px-8 py-3"
+            className="w-full bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-sm px-4 py-2"
             onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
           >
             👉 Quero Meu Plano Premium Agora!
@@ -103,16 +103,16 @@ const PersonalizedPlanForm = () => {
   const currentStepData = quizSteps[currentStep];
 
   return (
-    <Card className="max-w-2xl mx-auto bg-background shadow-lg">
-      <CardHeader className="text-center">
-        <CardTitle className="text-2xl text-primary">🎯 Monte Seu Plano de Emagrecimento</CardTitle>
-        <p className="text-muted-foreground">
+    <Card className="w-full max-w-lg mx-auto bg-background shadow-lg">
+      <CardHeader className="text-center pb-3">
+        <CardTitle className="text-lg text-primary">🎯 Monte Seu Plano de Emagrecimento</CardTitle>
+        <p className="text-sm text-muted-foreground">
           Responda este quiz rápido e veja seu diagnóstico inicial.
         </p>
       </CardHeader>
-      <CardContent>
-        <div className="space-y-4">
-          <h3 className="text-xl text-primary font-semibold">{currentStepData.question}</h3>
+      <CardContent className="pt-0">
+        <div className="space-y-3">
+          <h3 className="text-base text-primary font-semibold">{currentStepData.question}</h3>
           
           {currentStepData.type === "text" && (
             <Input 
@@ -149,7 +149,7 @@ const PersonalizedPlanForm = () => {
           
           <Button 
             onClick={handleNextStep}
-            className="w-full bg-primary hover:bg-primary/90 text-lg py-3 mt-6"
+            className="w-full bg-primary hover:bg-primary/90 text-sm py-2 mt-4"
           >
             Próximo →
           </Button>
