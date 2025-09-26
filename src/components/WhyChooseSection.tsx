@@ -41,7 +41,7 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section id="benefits" className="relative pt-8 pb-20 bg-background">
+    <section id="benefits" className="relative pt-8 pb-8 bg-background">
       <FloatingFoodEmojis density={25} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
