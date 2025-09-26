@@ -38,16 +38,10 @@ const WhyChooseSection = () => {
       title: "Análise corporal",
       description: "Faça uma análise corporal utilizando Inteligência Artificial e descubra sua porcentagem de gordura corporal, taxa metabólica basal e etc.",
     },
-    {
-      icon: "🛍️",
-      title: "Clube de Benefícios",
-      description: "Descontos e cashback em mais de 30.000 marcas, como suplementos, farmácias, roupas fitness e muito mais.",
-      isNew: true,
-    },
   ];
 
   return (
-    <section id="benefits" className="relative py-20 bg-background">
+    <section id="benefits" className="relative pt-8 pb-20 bg-background">
       <FloatingFoodEmojis density={25} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -62,17 +56,9 @@ const WhyChooseSection = () => {
               key={index}
               className="p-6 text-center hover:shadow-lg transition-all duration-300 hover:scale-105 border-border/50 bg-card backdrop-blur-sm relative"
             >
-              {feature.isNew && (
-                <div className="absolute top-4 right-4 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
-                  novo ⚡
-                </div>
-              )}
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">{feature.description}</p>
-              {feature.title === "Clube de Benefícios" && (
-                <p className="text-primary font-medium mt-2 text-sm">e muito mais...</p>
-              )}
             </Card>
           ))}
         </div>
