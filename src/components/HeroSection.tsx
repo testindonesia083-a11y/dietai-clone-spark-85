@@ -50,7 +50,7 @@ const HeroSection = () => {
             <div className="mt-8 w-full max-w-sm mx-auto lg:mx-0">
               <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
                 <iframe 
-                  src="https://www.youtube.com/embed/C4DQQi1DzpA?vq=hd1080" 
+                  src="https://www.youtube.com/embed/C4DQQi1DzpA?vq=highres" 
                   title="YouTube shorts video player" 
                   frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
