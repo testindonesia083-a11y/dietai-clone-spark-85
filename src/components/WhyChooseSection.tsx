@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 
 const WhyChooseSection = () => {
   const features = [
@@ -61,7 +62,8 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section id="benefits" className="py-20 bg-background">
+    <section id="benefits" className="relative py-20 bg-background">
+      <FloatingFoodEmojis density={25} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">

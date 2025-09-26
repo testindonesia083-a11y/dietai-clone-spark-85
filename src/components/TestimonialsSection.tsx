@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 import testimonialAline from "@/assets/testimonial-aline.jpg";
 import testimonial31kg from "@/assets/testimonial-31kg.jpg";
 import testimonial1 from "@/assets/testimonial-1.jpg";
@@ -62,7 +63,8 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-muted/30">
+    <section id="testimonials" className="relative py-20 bg-muted/30">
+      <FloatingFoodEmojis density={20} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
