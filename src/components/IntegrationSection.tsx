@@ -1,6 +1,9 @@
+import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
+
 const IntegrationSection = () => {
   return (
     <section className="relative py-20 bg-background">
+      <FloatingFoodEmojis density={20} />
       <div className="container mx-auto px-4">
         <div className="max-w-md mx-auto text-center space-y-8">
           {/* Chain Icon */}
