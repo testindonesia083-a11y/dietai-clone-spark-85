@@ -105,6 +105,14 @@ const PersonalizedPlanForm = () => {
   return (
     <Card className="w-full max-w-lg mx-auto bg-background shadow-lg">
       <CardHeader className="text-center pb-3">
+        <h2 className="text-xl font-bold text-primary mb-2">
+          Faça seu Diagnóstico e Monte o seu Plano de Emagrecimento
+        </h2>
+        <div className="flex justify-center mb-3">
+          <div className="animate-bounce text-2xl text-primary">
+            ↓
+          </div>
+        </div>
         <CardTitle className="text-lg text-primary">🎯 Monte Seu Plano de Emagrecimento</CardTitle>
         <p className="text-sm text-muted-foreground">
           Responda este quiz rápido e veja seu diagnóstico inicial.
