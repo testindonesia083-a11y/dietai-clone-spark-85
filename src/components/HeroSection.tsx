@@ -23,11 +23,11 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
-                O Método Secreto que não tem contam e não querem que você saiba!
+                O Método Secreto que não te contam e não querem que você saiba, pois querem que você continue gastando dinheiro com Personal Trainer ou Nutricionista!
                 <br />
                 O Aplicativo Secreto chamado LifeApp que não é divulgado em lugar nenhum, somente quem é da industria de Hollywood e está entre o mundo dos famosos sabe!
                 <br />
-                Emagrecer em casa sem muita dificuldade e sem se privar de nada!
+                Emagrecer em casa sem muita dificuldade, sem se privar de nada e sem precisar gastar com Nutri ou Personal!
               </h1>
               <p className="text-xl lg:text-2xl text-muted-foreground font-bold">
                 Não sabemos até quando esse app vai durar no ar! Então peço que aproveite enquanto á tempo!
