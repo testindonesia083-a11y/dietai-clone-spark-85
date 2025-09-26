@@ -107,7 +107,7 @@ const PricingSection = () => {
               <Button
                 variant={plan.popular ? "hero" : "outline"}
                 size="lg"
-                className="w-full"
+                className={`w-full ${plan.popular ? "animate-pulse-glow" : ""}`}
                 asChild
               >
                 <a href={plan.link} target="_blank" rel="noopener noreferrer">
