@@ -3,7 +3,6 @@ import { Carousel, CarouselContent, CarouselItem, CarouselApi } from "@/componen
 import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 import testimonialAline from "@/assets/testimonial-aline.jpg";
 import testimonial31kg from "@/assets/testimonial-31kg.jpg";
-import testimonial1 from "@/assets/testimonial-1.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
 import testimonial6 from "@/assets/testimonial-6.jpg";
@@ -27,12 +26,6 @@ const TestimonialsSection = () => {
       type: "image",
       image: testimonial31kg,
       alt: "Perda de 31kg com o LifeApp - Só agradecer ao LifeApp"
-    },
-    {
-      id: 3,
-      type: "image",
-      image: testimonial1,
-      alt: "Depoimento sobre perda de peso - 3,8kg perdidos"
     },
     {
       id: 4,
