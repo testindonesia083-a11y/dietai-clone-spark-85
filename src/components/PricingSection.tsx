@@ -24,7 +24,7 @@ const PricingSection = () => {
     },
     {
       name: "Plano Premium",
-      price: "R$ 27,90",
+      price: "R$ 29,90",
       period: "",
       originalPrice: "R$ 97,00",
       description: "Melhor custo-benefício",
