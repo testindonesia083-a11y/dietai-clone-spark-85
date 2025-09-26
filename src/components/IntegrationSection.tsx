@@ -37,7 +37,7 @@ const IntegrationSection = () => {
           </h2>
 
           {/* Description */}
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed font-bold">
             App com integração no seu relógio SmartWatch, registrando todos os acontecimentos do dia e te dando todas as dicas de melhorias na saude e o passo a passo para ter mais perda de peso! Suporte para todos os SmartWatchs incluindo Apple, Samsung, Mi fit entre outros...
           </p>
 
