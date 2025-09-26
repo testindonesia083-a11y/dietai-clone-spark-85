@@ -8,7 +8,7 @@ const PricingSection = () => {
   const plans = [
     {
       name: "Plano Básico",
-      price: "R$ 10,00",
+      price: "R$ 17,90",
       period: "",
       description: "Perfeito para começar sua jornada",
       features: [

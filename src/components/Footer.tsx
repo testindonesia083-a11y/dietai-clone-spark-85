@@ -15,10 +15,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold">Links Úteis</h3>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#benefits" className="hover:text-background transition-colors">Funcionalidades</a></li>
-              <li><a href="#plans" className="hover:text-background transition-colors">Planos</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Afiliados</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Para Negócios</a></li>
+              <li><span className="cursor-default text-background/80">Funcionalidades</span></li>
+              <li><span className="cursor-default text-background/80">Planos</span></li>
             </ul>
           </div>
 
@@ -26,10 +24,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold">Suporte</h3>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-background transition-colors">Central de Ajuda</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Contato</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Política de Privacidade</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Termos de Uso</a></li>
+              <li><span className="cursor-default text-background/80">Central de Ajuda</span></li>
+              <li><span className="cursor-default text-background/80">Contato</span></li>
+              <li><span className="cursor-default text-background/80">Política de Privacidade</span></li>
+              <li><span className="cursor-default text-background/80">Termos de Uso</span></li>
             </ul>
           </div>
         </div>
