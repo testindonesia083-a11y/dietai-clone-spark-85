@@ -81,7 +81,7 @@ const PersonalizedPlanForm = () => {
               🚀 Com base nas suas informações, criamos um plano inicial para você.
             </p>
             <p className="text-foreground">
-              🤖 Nossa <b>Inteligência Artificial exclusiva</b> ajusta treinos e cardápios em tempo real, mas <u>essa tecnologia está disponível apenas no <b>Plano Premium</b></u> do <b>App Solução Secreta</b>.
+              🤖 Nossa <b>Inteligência Artificial exclusiva</b> ajusta treinos e cardápios em tempo real, mas <u>essa tecnologia está disponível apenas no <b>Plano Premium</b></u> do <b>LifeApp Solução Secreta</b>.
             </p>
             <p className="text-foreground">
               🔥 Não perca essa chance: tenha um <b>personal trainer + nutricionista digital</b> no seu bolso 24h por dia.
