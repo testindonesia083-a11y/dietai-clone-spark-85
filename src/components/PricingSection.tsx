@@ -67,8 +67,8 @@ const PricingSection = () => {
               id={plan.popular ? "plano-premium" : undefined}
               className={`p-8 relative overflow-hidden ${
                 plan.popular
-                  ? "border-primary shadow-lg scale-105 bg-gradient-to-b from-primary/5 to-accent/5"
-                  : "border-border hover:border-primary/50"
+                  ? "border-primary shadow-lg scale-105 bg-gradient-to-b from-amber-100 to-yellow-200"
+                  : "border-border hover:border-primary/50 bg-gradient-to-b from-green-100 to-green-200"
               } transition-all duration-300 hover:shadow-lg`}
             >
               {plan.popular && (
