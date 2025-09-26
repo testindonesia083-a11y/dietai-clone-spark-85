@@ -91,11 +91,11 @@ const CaloriesSection = () => {
             
             <div className="space-y-6">
               <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
-                Descubra seu saldo calórico
+                LifeApp nós principais Sites de Notícias!
               </h2>
               
               <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
-                Com o Registro Calórico do seu dia, o App te dará o passo a passo de como melhorar as metas e as calórias no proximo dia!
+                Grandes meios de comunicação mostrando e contando sobre como o LifeApp é inovador e como mudou vidas!
               </p>
             </div>
 
