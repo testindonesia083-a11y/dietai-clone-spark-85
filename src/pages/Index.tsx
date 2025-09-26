@@ -5,6 +5,7 @@ import VideoFeatureSection from "@/components/VideoFeatureSection";
 import CaloriesSection from "@/components/CaloriesSection";
 import IntegrationSection from "@/components/IntegrationSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
+import BonusSection from "@/components/BonusSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ const Index = () => {
       <CaloriesSection />
       <IntegrationSection />
       <WhyChooseSection />
+      <BonusSection />
       <TestimonialsSection />
       <PricingSection />
       <Footer />

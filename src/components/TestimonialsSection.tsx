@@ -79,7 +79,7 @@ const TestimonialsSection = () => {
 
     const startAutoplay = () => {
       const currentTestimonial = testimonials[currentSlide];
-      const delay = currentTestimonial?.type === "video" ? 20000 : 3000; // 20s for video, 3s for images
+      const delay = currentTestimonial?.type === "video" ? 20000 : 6000; // 20s for video, 6s for images
       
       autoplayRef.current = setTimeout(() => {
         api.scrollNext();
