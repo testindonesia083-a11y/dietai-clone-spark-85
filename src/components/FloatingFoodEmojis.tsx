@@ -2,7 +2,7 @@ const FloatingFoodEmojis = ({ density = 30 }: { density?: number }) => {
   const foodEmojis = ["🍎", "🥕", "🥦", "🍌", "🍓", "🥑", "🍊", "🥬", "🍇", "🫐", "🥒", "🍅", "🥝", "🥭", "🍑", "🥔", "🌶️", "🫑", "🧄", "🧅", "🍋", "🥥", "🥜", "🥗", "🍉", "🍒", "🥐", "🥖", "🧀", "🥞", "🍳", "🥪", "🌽", "🍠", "🥨", "🫒", "🍍", "🫚", "🥦", "🫛", "🌮", "🥙", "🍱", "🥘", "🍲", "🥣", "🥟", "🍜"];
 
   return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-0">
       {Array.from({ length: density }, (_, index) => (
         <div 
           key={index} 
