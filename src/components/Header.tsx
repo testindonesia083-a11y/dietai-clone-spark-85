@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import cameraIcon from "@/assets/camera.webp";
 import creditCardIcon from "@/assets/credit-card.webp";
+import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-4 py-2">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 relative">
+      <FloatingFoodEmojis density={15} />
+      <div className="container mx-auto px-4 py-2 relative z-10">
         <div className="flex items-center justify-center lg:justify-between">
           {/* Logo - Centered on mobile, left on desktop */}
           <div className="flex items-center space-x-2">
