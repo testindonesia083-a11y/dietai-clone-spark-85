@@ -14,7 +14,7 @@ const CaloriesSection = () => {
     },
     {
       id: 2,
-      src: "https://i.ibb.co/tM1pPPkF/site-1.jpg",
+      src: "https://i.ibb.co/TMqSCQmv/site-1.jpg",
       alt: "LifeApp Interface Screenshot 2"
     },
     {
