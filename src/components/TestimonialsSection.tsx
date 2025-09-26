@@ -99,7 +99,7 @@ const TestimonialsSection = () => {
   }, [api, currentSlide, testimonials]);
 
   return (
-    <section id="testimonials" className="relative py-20">
+    <section id="testimonials" className="relative pt-8 pb-8">
       <FloatingFoodEmojis density={20} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">

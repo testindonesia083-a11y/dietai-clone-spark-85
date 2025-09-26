@@ -48,7 +48,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <section id="pricing" className="relative py-20 bg-background">
+    <section id="pricing" className="relative pt-8 pb-20 bg-background">
       <FloatingFoodEmojis density={25} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -67,13 +67,13 @@ const PricingSection = () => {
               id={plan.popular ? "plano-premium" : undefined}
               className={`p-8 relative overflow-hidden ${
                 plan.popular
-                  ? "border-primary shadow-lg scale-105 bg-gradient-to-b from-amber-100 to-yellow-200"
-                  : "border-border hover:border-primary/50 bg-gradient-to-b from-green-100 to-green-200"
-              } transition-all duration-300 hover:shadow-lg`}
+                  ? "border-4 border-primary shadow-2xl scale-110 bg-gradient-to-br from-yellow-300 via-amber-200 to-orange-300 ring-4 ring-primary/30 animate-pulse-glow"
+                  : "border-2 border-green-400 hover:border-green-500 bg-gradient-to-br from-green-200 via-emerald-100 to-green-300 shadow-lg hover:shadow-xl"
+              } transition-all duration-500 hover:scale-105 transform`}
             >
               {plan.popular && (
-                <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                  Mais popular
+                <div className="absolute -top-2 -right-2 bg-gradient-to-r from-red-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg animate-bounce">
+                  🔥 MAIS POPULAR 🔥
                 </div>
               )}
 
@@ -82,13 +82,20 @@ const PricingSection = () => {
                 <p className="text-muted-foreground mb-4">{plan.description}</p>
                 <div className="flex items-center justify-center gap-2">
                   {plan.originalPrice && (
-                    <span className="text-lg text-muted-foreground line-through">
+                    <span className="text-xl text-red-500 line-through font-bold">
                       {plan.originalPrice}
                     </span>
                   )}
-                  <span className="text-4xl font-bold">{plan.price}</span>
+                  <span className={`text-5xl font-extrabold ${plan.popular ? 'text-red-600 animate-pulse' : 'text-green-600'}`}>
+                    {plan.price}
+                  </span>
                   <span className="text-muted-foreground">{plan.period}</span>
                 </div>
+                {plan.popular && (
+                  <div className="mt-2 text-sm font-bold text-red-600 animate-pulse">
+                    ⚡ ECONOMIA DE R$ 67,10 ⚡
+                  </div>
+                )}
               </div>
 
               <ul className="space-y-3 mb-8">
@@ -107,13 +114,26 @@ const PricingSection = () => {
               <Button
                 variant={plan.popular ? "hero" : "outline"}
                 size="lg"
-                className={`w-full ${plan.popular ? "animate-pulse-glow" : ""}`}
+                className={`w-full font-bold text-lg py-4 ${
+                  plan.popular 
+                    ? "bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white shadow-xl animate-pulse transform hover:scale-105" 
+                    : "bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white shadow-lg transform hover:scale-105"
+                } transition-all duration-300`}
                 asChild
               >
                 <a href={plan.link} target="_blank" rel="noopener noreferrer">
-                  Começar agora
+                  {plan.popular ? "🚀 GARANTIR AGORA! 🚀" : "Começar agora"}
                 </a>
               </Button>
+              {plan.popular && (
+                <div className="mt-4 text-center">
+                  <div className="bg-red-100 border border-red-300 rounded-lg p-3">
+                    <p className="text-red-700 font-bold text-sm">
+                      ⏰ OFERTA LIMITADA - ÚLTIMAS VAGAS!
+                    </p>
+                  </div>
+                </div>
+              )}
             </Card>
           ))}
         </div>
