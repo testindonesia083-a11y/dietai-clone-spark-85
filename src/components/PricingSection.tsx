@@ -64,6 +64,7 @@ const PricingSection = () => {
           {plans.map((plan, index) => (
             <Card
               key={index}
+              id={plan.popular ? "plano-premium" : undefined}
               className={`p-8 relative overflow-hidden ${
                 plan.popular
                   ? "border-primary shadow-lg scale-105 bg-gradient-to-b from-primary/5 to-accent/5"
