@@ -91,7 +91,7 @@ const PersonalizedPlanForm = () => {
           <Button 
             variant="default" 
             className="w-full bg-yellow-400 text-black hover:bg-yellow-500 font-bold text-sm px-4 py-2"
-            onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('plano-premium')?.scrollIntoView({ behavior: 'smooth' })}
           >
             👉 Quero Meu Plano Premium Agora!
           </Button>
