@@ -70,7 +70,7 @@ const HeroSection = () => {
             </div>
 
             {/* Personalized Plan Form */}
-            <div className="mt-12">
+            <div className="mt-8 w-full">
               <PersonalizedPlanForm />
             </div>
 
