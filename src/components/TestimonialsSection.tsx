@@ -3,6 +3,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselApi } from "@/componen
 import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 import testimonialAline from "@/assets/testimonial-aline.jpg";
 import testimonial31kg from "@/assets/testimonial-31kg.jpg";
+import testimonial1 from "@/assets/testimonial-1.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
 import testimonial6 from "@/assets/testimonial-6.jpg";
@@ -11,6 +12,7 @@ import testimonialVideo from "@/assets/testimonial-video.mp4";
 
 const TestimonialsSection = () => {
   const [api, setApi] = useState<CarouselApi>();
+  const [currentSlide, setCurrentSlide] = useState(0);
   const autoplayRef = useRef<NodeJS.Timeout>();
 
   const testimonials = [
@@ -25,6 +27,12 @@ const TestimonialsSection = () => {
       type: "image",
       image: testimonial31kg,
       alt: "Perda de 31kg com o LifeApp - Só agradecer ao LifeApp"
+    },
+    {
+      id: 3,
+      type: "image",
+      image: testimonial1,
+      alt: "Depoimento sobre perda de peso - 3,8kg perdidos"
     },
     {
       id: 4,
@@ -61,22 +69,41 @@ const TestimonialsSection = () => {
   useEffect(() => {
     if (!api) return;
 
+    const onSelect = () => {
+      setCurrentSlide(api.selectedScrollSnap());
+    };
+
+    api.on("select", onSelect);
+    onSelect();
+
+    return () => {
+      api.off("select", onSelect);
+    };
+  }, [api]);
+
+  useEffect(() => {
+    if (!api) return;
+
     const startAutoplay = () => {
-      autoplayRef.current = setInterval(() => {
+      const currentTestimonial = testimonials[currentSlide];
+      const delay = currentTestimonial?.type === "video" ? 20000 : 3000; // 20s for video, 3s for images
+      
+      autoplayRef.current = setTimeout(() => {
         api.scrollNext();
-      }, 3000); // 3 seconds delay
+      }, delay);
     };
 
     const stopAutoplay = () => {
       if (autoplayRef.current) {
-        clearInterval(autoplayRef.current);
+        clearTimeout(autoplayRef.current);
       }
     };
 
+    stopAutoplay();
     startAutoplay();
 
     return () => stopAutoplay();
-  }, [api]);
+  }, [api, currentSlide, testimonials]);
 
   return (
     <section id="testimonials" className="relative py-20">
