@@ -21,7 +21,7 @@ const PricingSection = () => {
         "**Sem Atualização Semanal do Aplicativo**",
       ],
       popular: false,
-      link: "https://www.ggcheckout.com/checkout/v2/D6UKDIIs8RxuATKAOTOr",
+      link: "https://pay.cakto.com.br/33cy6hc_579203",
     },
     {
       name: "Plano Premium",
@@ -33,8 +33,8 @@ const PricingSection = () => {
         "**Tudo do plano básico**",
         "**Desconto de 79%**",
         "**+10 Relatórios Semanais**",
-        "**Metas personalizadas**",
-        "**Suporte Personalizado 24/7**",
+        "**Metas Personalizadas**",
+        "**Suporte Personalizado 24 Horas**",
         "**Backup na nuvem**",
         "**Pacote com +100 Técnicas de Perda de Peso em Casa**",
         "**Pacote com +100 Receitas Gostosas Fáceis**",
@@ -43,7 +43,7 @@ const PricingSection = () => {
         "**Atualizações Semanais do Aplicativo**",
       ],
       popular: true,
-      link: "https://www.ggcheckout.com/checkout/v2/qIkJhw473rm4lMFcO9Em",
+      link: "https://pay.cakto.com.br/bavkzf5_579012",
     },
   ];
 
