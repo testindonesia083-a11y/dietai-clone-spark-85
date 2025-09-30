@@ -64,7 +64,7 @@ const CaloriesSection = () => {
   }, [api]);
 
   return (
-    <section className="relative pt-8 pb-20 bg-amber-50">
+    <section className="relative pt-4 pb-20 bg-amber-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           {/* Images Carousel */}
@@ -113,7 +113,7 @@ const CaloriesSection = () => {
               <Button 
                 variant="default" 
                 size="xl" 
-                className="font-semibold px-12 py-4 text-xl bg-blue-400 hover:bg-blue-500 text-white rounded-full shadow-lg"
+                className="font-semibold px-12 py-4 text-xl bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-all"
                 onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Comprar agora →
