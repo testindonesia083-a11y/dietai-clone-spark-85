@@ -9,7 +9,7 @@ const CaloriesSection = () => {
   const images = [
     {
       id: 1,
-      src: "https://i.ibb.co/zYX3pzt/image.jpg",
+      src: "https://i.ibb.co/Bxyhb9Y/mais-1-depoimento.jpg",
       alt: "LifeApp Interface Screenshot 1"
     },
     {
@@ -29,7 +29,7 @@ const CaloriesSection = () => {
     },
     {
       id: 5,
-      src: "https://i.ibb.co/Z5CkHwx/image.jpg",
+      src: "https://i.ibb.co/0T3dBWr/site-pra-usar.jpg",
       alt: "LifeApp Interface Screenshot 5"
     }
   ];
