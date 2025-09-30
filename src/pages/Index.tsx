@@ -16,11 +16,11 @@ const Index = () => {
       <HeroSection />
       
       <CaloriesSection />
-      <IntegrationSection />
       <WhyChooseSection />
+      <IntegrationSection />
       <BonusSection />
-      <TestimonialsSection />
       <PricingSection />
+      <TestimonialsSection />
       <Footer />
     </div>
   );
