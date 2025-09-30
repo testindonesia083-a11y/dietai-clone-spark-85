@@ -80,7 +80,7 @@ const PricingSection = () => {
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
                 <p className="text-muted-foreground mb-4">{plan.description}</p>
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex flex-row items-center justify-center gap-2 flex-wrap">
                   {plan.originalPrice && (
                     <span className="text-xl text-red-500 line-through font-bold">
                       {plan.originalPrice}
