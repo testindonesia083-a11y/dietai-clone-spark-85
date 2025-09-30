@@ -113,7 +113,7 @@ const CaloriesSection = () => {
               <Button 
                 variant="default" 
                 size="xl" 
-                className="font-semibold px-12 py-4 text-xl bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800"
+                className="font-semibold px-12 py-4 text-xl bg-blue-400 hover:bg-blue-500 text-white rounded-full animate-pulse shadow-lg"
                 onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Comprar agora →
