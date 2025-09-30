@@ -2,7 +2,7 @@ import FloatingFoodEmojis from "@/components/FloatingFoodEmojis";
 
 const IntegrationSection = () => {
   return (
-    <section className="relative pt-20 pb-8 bg-background">
+    <section className="relative pt-8 pb-8 bg-background">
       <FloatingFoodEmojis density={20} />
       <div className="container mx-auto px-4">
         <div className="max-w-md mx-auto text-center space-y-8">

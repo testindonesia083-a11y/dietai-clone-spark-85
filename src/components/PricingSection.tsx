@@ -8,7 +8,7 @@ const PricingSection = () => {
   const plans = [
     {
       name: "Plano Básico",
-      price: "R$ 17,90",
+      price: "R$ 10,00",
       period: "",
       description: "Perfeito para começar sua jornada",
       features: [
@@ -25,13 +25,13 @@ const PricingSection = () => {
     },
     {
       name: "Plano Premium",
-      price: "R$ 29,90",
+      price: "R$ 19,90",
       period: "",
       originalPrice: "R$ 97,00",
       description: "Melhor custo-benefício",
       features: [
         "**Tudo do plano básico**",
-        "**Desconto de 70%**",
+        "**Desconto de 79%**",
         "**+10 Relatórios Semanais**",
         "**Metas personalizadas**",
         "**Suporte Personalizado 24/7**",
@@ -48,7 +48,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <section id="pricing" className="relative pt-8 pb-20 bg-background">
+    <section id="pricing" className="relative pt-8 pb-8 bg-background">
       <FloatingFoodEmojis density={25} />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -93,7 +93,7 @@ const PricingSection = () => {
                 </div>
                 {plan.popular && (
                   <div className="mt-2 text-sm font-bold text-red-600 animate-pulse">
-                    ⚡ ECONOMIA DE R$ 67,10 ⚡
+                    ⚡ ECONOMIA DE R$ 77,10 ⚡
                   </div>
                 )}
               </div>
