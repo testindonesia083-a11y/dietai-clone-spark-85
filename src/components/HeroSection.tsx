@@ -17,7 +17,7 @@ const HeroSection = () => {
           </div>)}
       </div>
 
-      <div className="container mx-auto px-4 pt-8 pb-20">
+      <div className="container mx-auto px-4 pt-8 pb-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
