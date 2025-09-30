@@ -62,7 +62,7 @@ const HeroSection = () => {
 
             {/* Buy Button After Video */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-8">
-              <Button variant="hero" size="xl" className="animate-pulse-glow" onClick={() => document.getElementById('pricing')?.scrollIntoView({
+              <Button variant="hero" size="xl" className="bg-blue-400 hover:bg-blue-500 text-white rounded-full animate-pulse shadow-lg" onClick={() => document.getElementById('pricing')?.scrollIntoView({
               behavior: 'smooth'
             })}>
                 Comprar agora
