@@ -64,9 +64,9 @@ const CaloriesSection = () => {
   }, [api]);
 
   return (
-    <section className="relative pt-0 pb-20 bg-amber-50">
+    <section className="relative pt-8 pb-20 bg-amber-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center space-y-12">
+        <div className="max-w-4xl mx-auto text-center space-y-6">
           {/* Images Carousel */}
           <div className="flex justify-center">
             <div className="w-full max-w-md">
