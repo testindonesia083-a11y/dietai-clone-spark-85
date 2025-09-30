@@ -9,18 +9,28 @@ const CaloriesSection = () => {
   const images = [
     {
       id: 1,
-      src: "https://i.ibb.co/My6Bdz0w/site-3.jpg",
+      src: "https://i.ibb.co/zYX3pzt/image.jpg",
       alt: "LifeApp Interface Screenshot 1"
     },
     {
       id: 2,
-      src: "https://i.ibb.co/TMqSCQmv/site-1.jpg",
+      src: "https://i.ibb.co/My6Bdz0w/site-3.jpg",
       alt: "LifeApp Interface Screenshot 2"
     },
     {
       id: 3,
-      src: "https://i.ibb.co/zWjknF3n/site-0.jpg",
+      src: "https://i.ibb.co/TMqSCQmv/site-1.jpg",
       alt: "LifeApp Interface Screenshot 3"
+    },
+    {
+      id: 4,
+      src: "https://i.ibb.co/zWjknF3n/site-0.jpg",
+      alt: "LifeApp Interface Screenshot 4"
+    },
+    {
+      id: 5,
+      src: "https://i.ibb.co/Z5CkHwx/image.jpg",
+      alt: "LifeApp Interface Screenshot 5"
     }
   ];
 

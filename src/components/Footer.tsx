@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="space-y-4 text-center max-w-md">
             <div className="text-2xl font-bold">LifeApp</div>
             <p className="text-background/80">
-              Revolucionando a nutrição e treino em casa com Inteligência artificial.
+              Revolucionando a nutrição e perda de peso em casa com Inteligência artificial.
             </p>
           </div>
         </div>
