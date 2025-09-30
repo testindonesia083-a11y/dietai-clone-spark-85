@@ -54,7 +54,7 @@ const CaloriesSection = () => {
   }, [api]);
 
   return (
-    <section className="relative py-20 bg-black">
+    <section className="relative py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           {/* Images Carousel */}
@@ -90,11 +90,11 @@ const CaloriesSection = () => {
             <div className="text-6xl">🔥</div>
             
             <div className="space-y-6">
-              <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
                 LifeApp nós principais Sites de Notícias!
               </h2>
               
-              <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
                 Grandes meios de comunicação mostrando e contando sobre como o LifeApp é inovador e como mudou vidas!
               </p>
             </div>
