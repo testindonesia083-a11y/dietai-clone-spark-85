@@ -106,7 +106,7 @@ const CaloriesSection = () => {
                 LifeApp nós principais Sites de Notícias!
               </h2>
               
-              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto font-bold">
                 Grandes meios de comunicação mostrando e contando sobre como o LifeApp é inovador e como mudou vidas!
               </p>
             </div>
